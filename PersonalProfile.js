@@ -38,6 +38,15 @@ console.log(student.skills.join(", "));
 
 //arithemethic operation
 
-// type of check
 
-// comparison
+
+//comparison 
+const isNotSchool = student.school === "UI";
+const isNotCourse = student.course !== "ICT" ;
+
+console.log("\nIs School UI?", isNotSchool ? "Yes" : "No" );
+console.log("Is Course ICT?", student.course ? "No" : "Yes" )
+
+// type of check
+const skillsType = typeof student.skills;
+console.log("\nThe datatype of skills is,", skillsType);
