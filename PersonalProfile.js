@@ -3,6 +3,7 @@
 const student ={
     name : "IyanuOluwa Olanrewaju",
     school : "OAU",
+    age : 22,
     course : "Web development",
     hasPaid : true ,
     skills : ["HTML", "CSS", "JavaScirpt"],
@@ -35,9 +36,13 @@ student.skills[2] ="JavaScript";
 console.log(student.skills.join(", "));
 
 // template literals
+console.log(`\nHello, I am ${student.name}`);
+console.log(`I am study in ${student.school}`);
+
 
 //arithemethic operation
-
+const futureYear = student.age + 5 ;
+console.log("\nWhat will be the age after 5 years:", futureYear);
 
 
 //comparison 
